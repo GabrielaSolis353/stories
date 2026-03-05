@@ -1,11 +1,22 @@
 /* styles.css */
+:root {
+	/* CSS HEX */
+--alabaster-grey: #d8e2dcff;
+--powder-petal: #ffe5d9ff;
+--pastel-pink: #ffcad4ff;
+--cherry-blossom: #f4acb7ff;
+--dusty-mauve: #9d8189ff;
+}
 
+body {
+background-color: var(--powder-petal);
+}
 h1 {
 	font-size: 10em;
-	color: hotpink; 
+	color: var(--cherry-blossom); 
 }
 
 p {
 	font-size: 3em;
-	color: magenta;
+	color: var(--dusty-mauve);
 } 
